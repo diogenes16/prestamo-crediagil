@@ -1,0 +1,218 @@
+/* Modulo texto-imagen */
+
+.bc-container.contenedor-imagen-texto {
+    display: flex;
+    flex-direction: row;
+    max-width: 100%;
+    margin: 0;
+    padding: 0;
+}
+
+
+
+.contenedor-imagen {
+    width: 40%;
+    flex-shrink: 0;
+    align-self: stretch;
+    height: auto;
+}
+
+.contenedor-texto {
+    display: flex;
+    flex-direction: column;
+    align-items: flex-start;
+    justify-content: center;
+    padding: 50px 65px 50px 80px;
+    gap: 16px;
+}
+
+.contenedor-imagen figure {
+    margin: 0;
+    padding: 0;
+    display: flex;
+}
+
+
+
+.titulo-modulo-texto-imagen {
+    font-family: "CIBFont Sans";
+    font-size: 32px;
+    font-weight: 700;
+    line-height: 36px;
+    text-align: left;
+    margin: 0;
+    padding: 0;
+    letter-spacing: 0;
+    color: #FFFFFF;
+}
+
+.descripcion-modulo-texto-imagen p {
+    font-family: "Open Sans";
+    font-size: 16px;
+    font-weight: 400;
+    line-height: 24px;
+    text-align: left;
+    margin: 0;
+    padding: 0;
+    color: #FFFFFF;
+
+}
+
+.descripcion-modulo-texto-imagen p span {
+    font-family: "CIB Sans";
+    font-size: 20px;
+    font-weight: 700;
+    line-height: 30px;
+    text-align: left;
+    margin: 0;
+    padding: 0;
+}
+
+.descripcion-modulo-texto-imagen {
+    display: flex;
+    flex-direction: column;
+    gap: 30px
+}
+
+.texto-previo-titulo {
+    font-family: "CIB Sans Light";
+    font-size: 28px;
+    font-weight: 200;
+    line-height: 40px;
+    text-align: left;
+    margin: 0;
+    padding: 0;
+    letter-spacing: 0;
+}
+
+
+
+@media (min-width:730px) and (max-width: 1439px) {
+
+    .contenedor-imagen figure {
+        overflow: hidden;
+        height: 100%;
+        display: flex;
+        justify-content: center;
+    }
+
+}
+
+.imagen-modulo-texto-imagen {
+    width: 100%;
+    height: 100%;
+    display: block;
+    object-fit: cover;
+    object-position: center;
+}
+
+@media (min-width: 320px) and (max-width: 730px) {
+    .bc-container.contenedor-imagen-texto {
+        display: block;
+        max-width: 100%;
+        margin: 0;
+        padding: 0;
+    }
+
+    .contenedor-imagen {
+        width: 100%;
+
+    }
+
+    .contenedor-imagen figure .imagen-modulo-texto-imagen {
+        width: 100%;
+        height: 100%;
+    }
+
+
+}
+
+@media (min-width: 320px) and (max-width: 910px) {
+
+    .contenedor-texto {
+        padding: 50px 16px;
+    }
+
+
+    .titulo-modulo-texto-imagen {
+        font-size: 24px;
+        line-height: 28px;
+        font-weight: 400;
+    }
+
+    .descripcion-modulo-texto-imagen p {
+        font-family: "Open Sans";
+        font-size: 14px;
+        font-weight: 400;
+        line-height: 20px;
+        text-align: left;
+
+    }
+
+    .descripcion-modulo-texto-imagen p span {
+        font-family: "CIB Sans";
+        font-size: 16px;
+        font-weight: 700;
+        line-height: 21.79px;
+        text-align: left;
+        margin: 0;
+        padding: 0;
+    }
+
+    .descripcion-modulo-texto-imagen {
+        gap: 20px;
+    }
+
+
+}
+
+
+
+
+/* SWIPER */
+.section-beneficios-cards-boton .encabezado-section-beneficios-cards-boton h2 {
+    font-family: "CIBFont Sans" !important;
+}
+
+
+.section-beneficios-cards-boton .item-beneficio .contenido-texto .contenido-texto-titulo h3 {
+    font-family: "CIBFont Sans" !important;
+}
+
+
+@media (max-width: 767px) {
+    .section-beneficios-cards-boton .encabezado-section-beneficios-cards-boton h2 {
+       font-weight: 400 !important;
+    }
+    
+}
+
+/* SWIPER */
+
+section.calleOpinionesAhorro {
+    padding: 64px 0px 96px 0px !important;
+}
+
+section.calleOpinionesAhorro .tituloSeccionCalleSalidaVivienda {
+    font-family: "CIBFont Sans";
+    font-weight: 700;
+    font-size: 32px;
+    line-height: 36px;
+    text-align: center;
+    color: #2C2A29;
+  }
+
+
+
+#banner-credito-hipotecario-vivienda .contenedor-credito-hipotecario-vivienda {
+    align-items: center;
+}
+
+
+
+@media (max-width: 767px) {
+    section.calleOpinionesAhorro {
+        padding: 64px 0px 185px 0px !important;
+    }
+    
+}

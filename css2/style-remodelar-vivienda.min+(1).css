@@ -1,0 +1,1169 @@
+#acordeon-documentos-vivienda a,
+#acordeon-documentos-vivienda figure,
+#acordeon-documentos-vivienda h1,
+#acordeon-documentos-vivienda h2,
+#acordeon-documentos-vivienda h3,
+#acordeon-documentos-vivienda h4,
+#acordeon-documentos-vivienda h5,
+#acordeon-documentos-vivienda h6,
+#acordeon-documentos-vivienda li,
+#acordeon-documentos-vivienda p,
+#acordeon-documentos-vivienda td,
+#acordeon-documentos-vivienda th,
+#banner-credito-hipotecario-vivienda a,
+#banner-credito-hipotecario-vivienda figure,
+#banner-credito-hipotecario-vivienda h1,
+#banner-credito-hipotecario-vivienda h2,
+#banner-credito-hipotecario-vivienda h3,
+#banner-credito-hipotecario-vivienda h4,
+#banner-credito-hipotecario-vivienda h5,
+#banner-credito-hipotecario-vivienda h6,
+#banner-credito-hipotecario-vivienda li,
+#banner-credito-hipotecario-vivienda p,
+#banner-credito-hipotecario-vivienda td,
+#banner-credito-hipotecario-vivienda th,
+#conoce-condiciones-credito-vivienda a,
+#conoce-condiciones-credito-vivienda h1,
+#conoce-condiciones-credito-vivienda h2,
+#conoce-condiciones-credito-vivienda h3,
+#conoce-condiciones-credito-vivienda h4,
+#conoce-condiciones-credito-vivienda h5,
+#conoce-condiciones-credito-vivienda h6,
+#conoce-condiciones-credito-vivienda li,
+#conoce-condiciones-credito-vivienda p,
+#conoce-condiciones-credito-vivienda td #conoce-condiciones-credito-vivienda figure,
+#conoce-condiciones-credito-vivienda th,
+#detalles-tasas-tarifas a,
+#detalles-tasas-tarifas figure,
+#detalles-tasas-tarifas h1,
+#detalles-tasas-tarifas h2,
+#detalles-tasas-tarifas h3,
+#detalles-tasas-tarifas h4,
+#detalles-tasas-tarifas h5,
+#detalles-tasas-tarifas h6,
+#detalles-tasas-tarifas li,
+#detalles-tasas-tarifas p,
+#detalles-tasas-tarifas td,
+#detalles-tasas-tarifas th,
+#planes-pago-vivienda a,
+#planes-pago-vivienda figure,
+#planes-pago-vivienda h1,
+#planes-pago-vivienda h2,
+#planes-pago-vivienda h3,
+#planes-pago-vivienda h4,
+#planes-pago-vivienda h5,
+#planes-pago-vivienda h6,
+#planes-pago-vivienda li,
+#planes-pago-vivienda p,
+#planes-pago-vivienda td,
+#planes-pago-vivienda th,
+#razon-beneficio-vivienda a,
+#razon-beneficio-vivienda figure,
+#razon-beneficio-vivienda h1,
+#razon-beneficio-vivienda h2,
+#razon-beneficio-vivienda h3,
+#razon-beneficio-vivienda h4,
+#razon-beneficio-vivienda h5 #razon-beneficio-vivienda h6,
+#razon-beneficio-vivienda li,
+#razon-beneficio-vivienda p,
+#razon-beneficio-vivienda td,
+#razon-beneficio-vivienda th {
+  color: #2c2a29;
+  padding: 0;
+  margin: 0;
+  letter-spacing: 0
+}
+
+#acordeon-documentos-vivienda a,
+#banner-credito-hipotecario-vivienda a,
+#conoce-condiciones-credito-vivienda a,
+#detalles-tasas-tarifas a,
+#planes-pago-vivienda a,
+#razon-beneficio-vivienda a {
+  text-decoration: underline
+}
+
+#banner-credito-hipotecario-vivienda .contenedor-credito-hipotecario-vivienda {
+  display: grid;
+  grid-template-columns: 60% 40%;
+  max-width: 1440px;
+  margin: auto;
+  padding: 50px 55px
+}
+
+#banner-credito-hipotecario-vivienda .contenido-credito-hipotecario-vivienda {
+  max-width: 650px
+}
+
+#banner-credito-hipotecario-vivienda .entradilla-credito-hipotecario-vivienda {
+  display: flex;
+  align-items: center;
+  padding-bottom: 30px
+}
+
+#banner-credito-hipotecario-vivienda .entradilla-credito-hipotecario-vivienda figure svg {
+  display: block;
+  width: 32px;
+  height: 32px;
+  margin-right: 10px
+}
+
+#banner-credito-hipotecario-vivienda .entradilla-credito-hipotecario-vivienda p {
+  font-family: "CIB Sans";
+  font-size: 20px;
+  font-weight: 700;
+  line-height: 26px;
+  text-align: left;
+  text-decoration: underline
+}
+
+#banner-credito-hipotecario-vivienda .texto-credito-hipotecario-vivienda h1 {
+  font-family: "CIB Sans";
+  font-size: 42px;
+  font-weight: 700;
+  line-height: 46px;
+  text-align: left;
+  margin-bottom: 20px
+}
+
+#banner-credito-hipotecario-vivienda .texto-credito-hipotecario-vivienda p {
+  font-family: "Open Sans";
+  font-size: 16px;
+  font-weight: 400;
+  line-height: 24px;
+  text-align: left;
+  margin-bottom: 15px
+}
+
+#banner-credito-hipotecario-vivienda #boton-credito-hipotecario-vivienda-1,
+#banner-credito-hipotecario-vivienda #boton-credito-hipotecario-vivienda-2 {
+  display: inline-block;
+  border-radius: 50px;
+  padding: 12px 24px;
+  margin: 15px 10px 0 0;
+  font-family: "CIB Sans";
+  font-size: 18px;
+  font-weight: 700;
+  line-height: 26px;
+  text-align: center;
+  text-decoration: none
+}
+
+#banner-credito-hipotecario-vivienda #boton-credito-hipotecario-vivienda-1 {
+  background-color: #fdda24;
+  border: 1px solid #2c2a2900
+}
+
+#banner-credito-hipotecario-vivienda #boton-credito-hipotecario-vivienda-1:hover {
+  background-color: #fee66c
+}
+
+#banner-credito-hipotecario-vivienda #boton-credito-hipotecario-vivienda-2 {
+  background-color: #ffffff00;
+  border: 1px solid #2c2a29
+}
+
+#banner-credito-hipotecario-vivienda #boton-credito-hipotecario-vivienda-2:hover {
+  background-color: #d9dadd
+}
+
+#banner-credito-hipotecario-vivienda .imagen-credito-hipotecario-vivienda figure img {
+  display: block;
+  max-width: 536px;
+  width: 100%
+}
+
+#banner-credito-hipotecario-vivienda .imagen-credito-hipotecario-vivienda figure img:nth-child(2),
+#detalles-tasas-tarifas .titulo-detalles-tasas-tarifas figure svg,
+#planes-pago-vivienda .titulo-planes-pago-vivienda figure svg {
+  display: none
+}
+
+#razon-beneficio-vivienda .contenedor-razon-beneficio-vivienda-plantilla-01 {
+  display: grid;
+  grid-template-columns: 1fr;
+  max-width: 1440px;
+  margin: auto;
+  padding: 60px 200px 50px 160px
+}
+
+#razon-beneficio-vivienda .contenedor-razon-beneficio-vivienda-plantilla-02 {
+  display: grid;
+  grid-template-columns: 1fr;
+  max-width: 1440px;
+  margin: auto;
+  padding: 60px 80px 50px 50px
+}
+
+#conoce-condiciones-credito-vivienda .contenido-conoce-condiciones-credito-vivienda,
+#razon-beneficio-vivienda .contenido-razon-beneficio-vivienda {
+  text-align: center;
+  grid-column: 1/3
+}
+
+#razon-beneficio-vivienda .contenido-razon-beneficio-vivienda h2 {
+  font-family: "CIB Sans";
+  font-size: 32px;
+  font-weight: 700;
+  line-height: 36px;
+  text-align: center;
+  margin-bottom: 30px
+}
+
+#razon-beneficio-vivienda .contenido-razon-beneficio-vivienda p {
+  font-family: "Open Sans";
+  font-size: 16px;
+  font-weight: 400;
+  line-height: 24px;
+  text-align: center;
+  margin: -20px 0 30px
+}
+
+#razon-beneficio-vivienda .card-razon-beneficio-vivienda {
+  display: grid;
+  grid-template-columns: repeat(2, 1fr);
+  gap: 24px
+}
+
+#razon-beneficio-vivienda .contenido-card-razon-beneficio-vivienda {
+  position: relative;
+  min-height: 200px
+}
+
+#razon-beneficio-vivienda .card-frontal-razon-beneficio-vivienda,
+#razon-beneficio-vivienda .card-trasera-razon-beneficio-vivienda {
+  position: absolute;
+  width: 100%;
+  height: 100%;
+  display: flex;
+  flex-direction: column;
+  justify-content: space-between;
+  border-radius: 8px;
+  padding: 16px;
+  cursor: pointer;
+  -webkit-backface-visibility: hidden;
+  transition: .5s
+}
+
+#razon-beneficio-vivienda .card-frontal-razon-beneficio-vivienda,
+#razon-beneficio-vivienda .imagen-frontal-razon-beneficio-vivienda {
+  transform: perspective(1000px) rotateY(0)
+}
+
+#razon-beneficio-vivienda .card-trasera-razon-beneficio-vivienda,
+#razon-beneficio-vivienda .imagen-trasera-razon-beneficio-vivienda {
+  transform: perspective(1000px) rotateY(180deg)
+}
+
+#razon-beneficio-vivienda .card-frontal-razon-beneficio-vivienda figure svg,
+#razon-beneficio-vivienda .titulo-razon-beneficio-vivienda figure svg {
+  display: block;
+  width: 40px;
+  height: 40px
+}
+
+#razon-beneficio-vivienda .titulo-card-razon-beneficio-vivienda h4 {
+  font-family: "CIB Sans";
+  font-size: 20px;
+  font-weight: 700;
+  line-height: 26px;
+  text-align: left;
+  max-width: 207px
+}
+
+#razon-beneficio-vivienda .enlace-icono-card-trasera-razon-beneficio-vivienda {
+  display: flex;
+  align-items: flex-end;
+  justify-content: flex-end;
+  width: 100%
+}
+
+#razon-beneficio-vivienda .enlace-card-trasera-razon-beneficio-vivienda {
+  display: flex;
+  width: 100%
+}
+
+#razon-beneficio-vivienda .enlace-card-trasera-razon-beneficio-vivienda a {
+  font-family: "Open Sans bold";
+  font-size: 16px;
+  font-weight: 700;
+  line-height: 24px;
+  text-align: left
+}
+
+#razon-beneficio-vivienda .enlace-icono-card-trasera-razon-beneficio-vivienda figure svg,
+#razon-beneficio-vivienda .titulo-card-razon-beneficio-vivienda figure svg {
+  display: block;
+  width: 48px;
+  height: 48px
+}
+
+#razon-beneficio-vivienda .card-trasera-razon-beneficio-vivienda,
+#razon-beneficio-vivienda .titulo-card-razon-beneficio-vivienda {
+  display: flex;
+  align-items: flex-end;
+  justify-content: space-between
+}
+
+#razon-beneficio-vivienda .card-trasera-razon-beneficio-vivienda a,
+#razon-beneficio-vivienda .card-trasera-razon-beneficio-vivienda p {
+  font-family: "Open Sans";
+  font-size: 16px;
+  font-weight: 400;
+  line-height: 24px;
+  text-align: left;
+  width: 100%
+}
+
+#razon-beneficio-vivienda .card-trasera-razon-beneficio-vivienda a {
+  font-weight: 700
+}
+
+#razon-beneficio-vivienda .imagen-razon-beneficio-vivienda-plantilla-01 {
+  position: relative;
+  width: 424px
+}
+
+#razon-beneficio-vivienda .imagen-razon-beneficio-vivienda-plantilla-02 {
+  position: relative;
+  width: 648px
+}
+
+#razon-beneficio-vivienda .imagen-frontal-razon-beneficio-vivienda,
+#razon-beneficio-vivienda .imagen-trasera-razon-beneficio-vivienda {
+  position: absolute;
+  width: 100%;
+  height: 100%;
+  display: flex;
+  flex-direction: column;
+  justify-content: space-between;
+  grid-column: 2/2;
+  margin-left: 24px;
+  padding: 20px;
+  border-radius: 8px;
+  background-repeat: no-repeat;
+  background-position: top right -105px;
+  background-size: cover;
+  cursor: pointer;
+  -webkit-backface-visibility: hidden;
+  transition: .5s
+}
+
+#razon-beneficio-vivienda .cerrar-imagen-trasera-razon-beneficio-vivienda,
+#razon-beneficio-vivienda .titulo-razon-beneficio-vivienda {
+  display: flex;
+  align-items: flex-end;
+  justify-content: flex-end
+}
+
+#razon-beneficio-vivienda .titulo-razon-beneficio-vivienda h3 {
+  font-family: "CIB Sans";
+  font-size: 28px;
+  font-weight: 700;
+  line-height: 32px;
+  text-align: left;
+  color: #fff;
+  padding-right: 25px;
+  text-shadow: -1px -1px 0 #2c2a29, -1px 1px 0 #2c2a29, 1px 1px 0 #2c2a29, 1px -1px 0 #2c2a29;
+  width: 100%
+}
+
+#razon-beneficio-vivienda .texto-imagen-trasera-razon-beneficio-vivienda ul {
+  padding-left: 20px
+}
+
+#razon-beneficio-vivienda .texto-imagen-trasera-razon-beneficio-vivienda p,
+#razon-beneficio-vivienda .texto-imagen-trasera-razon-beneficio-vivienda ul li {
+  font-family: "Open Sans";
+  font-size: 16px;
+  font-weight: 400;
+  line-height: 24px;
+  text-align: left;
+  color: #fff;
+  list-style: outside
+}
+
+#razon-beneficio-vivienda .texto-imagen-trasera-razon-beneficio-vivienda ul li {
+  margin-left: 10px
+}
+
+#razon-beneficio-vivienda .cerrar-imagen-trasera-razon-beneficio-vivienda figure svg {
+  width: 40px;
+  height: 40px
+}
+
+#razon-beneficio-vivienda .boton-modal-razon-beneficio-vivienda {
+  display: flex;
+  align-items: center;
+  justify-content: center;
+  grid-column: 1/3;
+  padding: 20px 0
+}
+
+#razon-beneficio-vivienda .boton-modal-razon-beneficio-vivienda .boton-razon-beneficio-vivienda {
+  border: none;
+  background: 0 0;
+  text-decoration: underline;
+  font-family: "Open Sans bold";
+  font-size: 16px;
+  font-weight: 700;
+  line-height: 24px;
+  text-align: center;
+  cursor: pointer;
+  color: #2c2a29
+}
+
+#conoce-condiciones-credito-vivienda .contenedor-conoce-condiciones-credito-vivienda-plantilla-01 {
+  display: grid;
+  grid-template-columns: 1fr;
+  max-width: 1440px;
+  margin: auto;
+  padding: 50px 160px
+}
+
+#conoce-condiciones-credito-vivienda .contenedor-conoce-condiciones-credito-vivienda-plantilla-02 {
+  display: grid;
+  grid-template-columns: 1fr;
+  max-width: 786px;
+  margin: auto;
+  padding: 50px 0
+}
+
+#conoce-condiciones-credito-vivienda .contenido-conoce-condiciones-credito-vivienda h2 {
+  font-family: "CIB Sans";
+  font-size: 32px;
+  font-weight: 700;
+  line-height: 36px;
+  margin-bottom: 15px
+}
+
+#conoce-condiciones-credito-vivienda .contenido-conoce-condiciones-credito-vivienda p {
+  font-family: "CIB Sans";
+  font-size: 20px;
+  font-weight: 400;
+  line-height: 26px;
+  margin-bottom: 30px
+}
+
+#conoce-condiciones-credito-vivienda .centrar-bullet-conoce-condiciones-credito-vivienda,
+#conoce-condiciones-credito-vivienda .imagen-conoce-condiciones-credito-vivienda {
+  grid-column: 1/2
+}
+
+#conoce-condiciones-credito-vivienda .imagen-conoce-condiciones-credito-vivienda figure {
+  width: 100%;
+  height: 100%
+}
+
+#conoce-condiciones-credito-vivienda .imagen-conoce-condiciones-credito-vivienda figure img {
+  display: block;
+  width: 424px;
+  height: 100%;
+  object-fit: cover;
+  object-position: top right;
+  border-radius: 8px
+}
+
+#conoce-condiciones-credito-vivienda .bullet-conoce-condiciones-credito-vivienda-plantilla-01 {
+  display: grid;
+  grid-template-columns: 1fr 1fr;
+  grid-column: 2/2;
+  padding: 0 25px;
+  gap: 25px
+}
+
+#conoce-condiciones-credito-vivienda .bullet-conoce-condiciones-credito-vivienda-plantilla-02 {
+  display: grid;
+  grid-template-columns: 1fr;
+  grid-column: 2/2;
+  padding: 0 25px;
+  gap: 25px
+}
+
+#conoce-condiciones-credito-vivienda .item-conoce-condiciones-credito-vivienda {
+  display: flex;
+  gap: 16px;
+  box-shadow: 0 1px 4px 0 #2c2A2914;
+  border-radius: 8px;
+  padding: 25px
+}
+
+#conoce-condiciones-credito-vivienda .item-conoce-condiciones-credito-vivienda figure svg {
+  display: block;
+  width: 56px;
+  height: 56px
+}
+
+#conoce-condiciones-credito-vivienda .item-conoce-condiciones-credito-vivienda div h6 {
+  font-family: "CIB Sans";
+  font-size: 18px;
+  font-weight: 400;
+  line-height: 26px;
+  text-align: left
+}
+
+#conoce-condiciones-credito-vivienda .item-conoce-condiciones-credito-vivienda div p,
+#detalles-tasas-tarifas .bullet-detalles-tasas-tarifas p {
+  font-family: "Open Sans";
+  font-size: 16px;
+  font-weight: 400;
+  line-height: 24px;
+  text-align: left
+}
+
+#conoce-condiciones-credito-vivienda .info-conoce-condiciones-credito-vivienda {
+  display: flex;
+  grid-column: 1/3;
+  gap: 16px;
+  max-width: 640px;
+  margin: auto;
+  padding: 40px 0 0
+}
+
+#acordeon-documentos-vivienda .icono-acordeon-documentos-vivienda,
+#conoce-condiciones-credito-vivienda .info-conoce-condiciones-credito-vivienda figure svg,
+#planes-pago-vivienda .item-planes-pago-vivienda figure svg {
+  display: block;
+  width: 24px;
+  height: 24px
+}
+
+#conoce-condiciones-credito-vivienda .info-conoce-condiciones-credito-vivienda p {
+  font-family: "Open Sans";
+  font-size: 14px;
+  font-weight: 400;
+  line-height: 20px;
+  text-align: left
+}
+
+#planes-pago-vivienda .contenedor-planes-pago-vivienda {
+  display: grid;
+  grid-template-columns: 1fr;
+  max-width: 1440px;
+  margin: auto;
+  padding: 50px 160px 35px
+}
+
+#planes-pago-vivienda .titulo-planes-pago-vivienda h2 {
+  font-family: "CIB Sans";
+  font-size: 32px;
+  font-weight: 700;
+  line-height: 36px;
+  text-align: center;
+  margin-bottom: 20px
+}
+
+#planes-pago-vivienda .contenido-planes-pago-vivienda {
+  text-align: left
+}
+
+#planes-pago-vivienda .contenido-planes-pago-vivienda h3 {
+  font-family: "CIB Sans";
+  font-size: 24px;
+  font-weight: 700;
+  line-height: 28px;
+  margin-bottom: 25px
+}
+
+#planes-pago-vivienda .contenido-planes-pago-vivienda a,
+#planes-pago-vivienda .contenido-planes-pago-vivienda p,
+#planes-pago-vivienda .contenido-planes-pago-vivienda strong {
+  font-family: "Open Sans";
+  font-size: 14px;
+  font-weight: 700;
+  line-height: 20px
+}
+
+#planes-pago-vivienda .item-planes-pago-vivienda {
+  display: flex;
+  align-items: center;
+  gap: 20px;
+  list-style: none
+}
+
+#planes-pago-vivienda .contenido-planes-pago-vivienda p,
+#planes-pago-vivienda .item-planes-pago-vivienda,
+#planes-pago-vivienda .texto-item-planes-pago-vivienda p {
+  font-family: "Open Sans";
+  font-size: 14px;
+  font-weight: 400;
+  line-height: 20px;
+  margin-bottom: 20px
+}
+
+#detalles-tasas-tarifas .contenedor-detalles-tasas-tarifas {
+  display: grid;
+  grid-template-columns: 1fr;
+  max-width: 1440px;
+  margin: auto;
+  padding: 70px 160px 170px
+}
+
+#detalles-tasas-tarifas .titulo-detalles-tasas-tarifas h2 {
+  font-family: "CIB Sans";
+  font-size: 32px;
+  font-weight: 700;
+  line-height: 36px;
+  text-align: center;
+  margin-bottom: 40px
+}
+
+#detalles-tasas-tarifas .titulo-detalles-tasas-tarifas p {
+  font-family: "Open Sans";
+  font-size: 16px;
+  font-weight: 400;
+  line-height: 24px;
+  text-align: center;
+  margin: -30px 0 40px
+}
+
+#detalles-tasas-tarifas .contenido-detalles-tasas-tarifas {
+  display: grid;
+  grid-template-columns: repeat(2, 1fr);
+  gap: 30px
+}
+
+#detalles-tasas-tarifas .enlace-icono-detalles-tasas-tarifas {
+  display: flex;
+  gap: 18px
+}
+
+#detalles-tasas-tarifas .bullet-detalles-tasas-tarifas a,
+#detalles-tasas-tarifas .bullet-detalles-tasas-tarifas h3 {
+  font-family: "Open Sans";
+  font-size: 16px;
+  font-weight: 700;
+  line-height: 24px;
+  text-align: left;
+  margin-bottom: 15px
+}
+
+#detalles-tasas-tarifas .item-detalles-tasas-tarifas {
+  display: flex;
+  gap: 20px;
+  list-style: none
+}
+
+#detalles-tasas-tarifas .texto-item-detalles-tasas-tarifas {
+  font-family: "Open Sans";
+  font-size: 14px;
+  font-weight: 400;
+  line-height: 20px;
+  text-align: left;
+  margin-bottom: 15px
+}
+
+#detalles-tasas-tarifas .texto-item-detalles-tasas-tarifas a {
+  font-size: 14px;
+  line-height: 20px;
+  font-weight: 700;
+  text-decoration: underline
+}
+
+#detalles-tasas-tarifas .tabla-detalles-tasas-tarifas h3 {
+  font-family: "CIB Sans";
+  font-size: 18px;
+  font-weight: 700;
+  line-height: 26px;
+  text-align: left;
+  margin-bottom: 15px
+}
+
+#detalles-tasas-tarifas .contenido-tabla-detalles-tasas-tarifas {
+  margin-bottom: 25px
+}
+
+#detalles-tasas-tarifas .contenido-tabla-detalles-tasas-tarifas table {
+  border-collapse: collapse;
+  width: 100%;
+  margin-bottom: 5px
+}
+
+#detalles-tasas-tarifas .contenido-tabla-detalles-tasas-tarifas p {
+  font-family: "Open Sans";
+  font-size: 12px;
+  font-weight: 400;
+  line-height: 16px;
+  text-align: left
+}
+
+#detalles-tasas-tarifas .contenido-tabla-detalles-tasas-tarifas table tr:first-child {
+  box-shadow: none
+}
+
+#detalles-tasas-tarifas .contenido-tabla-detalles-tasas-tarifas table tr {
+  box-shadow: 0 1px 4px 0 #2c2A2914
+}
+
+#detalles-tasas-tarifas .contenido-tabla-detalles-tasas-tarifas table tr th {
+  font-family: "CIB Sans";
+  font-size: 14px;
+  font-weight: 700;
+  line-height: 20px;
+  text-align: left;
+  padding: 10px
+}
+
+#detalles-tasas-tarifas .contenido-tabla-detalles-tasas-tarifas table tr td {
+  font-family: "Open Sans";
+  font-size: 14px;
+  font-weight: 600;
+  line-height: 20px;
+  text-align: left;
+  padding: 10px;
+  border-bottom: 1px solid #d9dadd;
+  width: 33.33%
+}
+
+#acordeon-documentos-vivienda .contenido-principal-acordeon-documentos-vivienda {
+  max-width: 1440px;
+  margin: auto;
+  padding: 60px 140px 0
+}
+
+#acordeon-documentos-vivienda .contenido-principal-acordeon-documentos-vivienda h2 {
+  font-family: "CIB Sans";
+  font-size: 32px;
+  font-weight: 700;
+  line-height: 36px;
+  text-align: center;
+  margin-bottom: 15px
+}
+
+#acordeon-documentos-vivienda .contenido-principal-acordeon-documentos-vivienda p {
+  font-family: "Open Sans";
+  font-size: 14px;
+  font-weight: 400;
+  line-height: 20px;
+  text-align: center
+}
+
+#acordeon-documentos-vivienda .contenedor-acordeon-documentos-vivienda {
+  display: grid;
+  grid-template-columns: 1fr;
+  max-width: 1440px;
+  margin: auto;
+  padding: 50px 340px
+}
+
+#acordeon-documentos-vivienda .acordeon-documentos-vivienda {
+  border-bottom: 1px solid #ccc
+}
+
+#acordeon-documentos-vivienda .acordeon-documentos-vivienda:first-child {
+  border-top: 1px solid #ccc;
+  border-bottom: 1px solid #ccc
+}
+
+#acordeon-documentos-vivienda .boton-acordeon-documentos-vivienda {
+  display: flex;
+  justify-content: space-between;
+  align-items: center;
+  padding: 20px;
+  border: none;
+  background-color: #2c2a2900;
+  width: 100%
+}
+
+#acordeon-documentos-vivienda .texto-acordeon-documentos-vivienda {
+  display: flex;
+  align-items: center;
+  gap: 10px
+}
+
+#acordeon-documentos-vivienda .texto-acordeon-documentos-vivienda figure svg {
+  display: block;
+  width: 30px;
+  height: 30px
+}
+
+#acordeon-documentos-vivienda .texto-acordeon-documentos-vivienda p {
+  font-family: "Open Sans";
+  font-size: 16px;
+  font-weight: 700;
+  line-height: 24px;
+  text-align: left
+}
+
+#acordeon-documentos-vivienda .contenido-acordeon-documentos-vivienda {
+  max-height: 0;
+  transition: .5s;
+  overflow: hidden
+}
+
+#acordeon-documentos-vivienda .lista-acordeon-documentos-vivienda {
+  list-style: none;
+  padding: 20px;
+  text-align: left
+}
+
+#acordeon-documentos-vivienda .item-acordeon-documentos-vivienda {
+  display: flex;
+  gap: 10px;
+  margin-bottom: 10px
+}
+
+#acordeon-documentos-vivienda .enlace-acordeon-documentos-vivienda a {
+  font-family: "Open Sans";
+  font-size: 16px;
+  font-weight: 600;
+  line-height: 21px;
+  letter-spacing: -.30000001192092896px;
+  text-align: left;
+  text-decoration: underline
+}
+
+#acordeon-documentos-vivienda .lista-acordeon-info-vivienda {
+  padding: 35px
+}
+
+#acordeon-documentos-vivienda .lista-acordeon-info-vivienda h3 {
+  font-family: "CIB Sans";
+  font-size: 20px;
+  font-weight: 700;
+  line-height: 26px;
+  text-align: left
+}
+
+#acordeon-documentos-vivienda .lista-acordeon-info-vivienda li {
+  margin-left: 15px
+}
+
+#acordeon-documentos-vivienda .lista-acordeon-info-vivienda li,
+#acordeon-documentos-vivienda .lista-acordeon-info-vivienda p {
+  font-family: "Open Sans";
+  font-size: 16px;
+  font-weight: 400;
+  line-height: 24px;
+  text-align: left;
+  list-style: disc
+}
+
+.bc-container.bc-container_OpinionesAhorro {
+  max-width: 1440px;
+  margin: auto;
+  padding: 0 150px
+}
+
+.swiper-slide_OpinionesAhorro:first-child .desCardCalleSalidaVivienda p,
+h3.tituloCardCalleSalida:first-child {
+  color: #fff
+}
+
+a.btnCardCalleSalidaTransparent,
+a.btnCardCalleSalidaWhile {
+  color: #2c2a29
+}
+
+@media screen and (max-width:1280px) {
+  #razon-beneficio-vivienda .contenedor-razon-beneficio-vivienda-plantilla-01 {
+    padding: 60px 80px 50px 50px
+  }
+
+  #razon-beneficio-vivienda .imagen-razon-beneficio-vivienda-plantilla-02 {
+    width: 424px
+  }
+
+  #conoce-condiciones-credito-vivienda .contenedor-conoce-condiciones-credito-vivienda-plantilla-01 {
+    padding: 60px 50px
+  }
+
+  #conoce-condiciones-credito-vivienda .contenedor-conoce-condiciones-credito-vivienda-plantilla-02 {
+    padding: 50px 0
+  }
+
+  #planes-pago-vivienda .contenedor-planes-pago-vivienda {
+    padding: 60px 50px 35px
+  }
+
+  #detalles-tasas-tarifas .contenedor-detalles-tasas-tarifas {
+    padding: 70px 50px 170px
+  }
+
+  #acordeon-documentos-vivienda .contenedor-acordeon-documentos-vivienda {
+    padding: 60px 200px
+  }
+}
+
+@media screen and (max-width:992px) {
+  #banner-credito-hipotecario-vivienda .contenedor-credito-hipotecario-vivienda {
+    grid-template-columns: 1fr;
+    padding: 40px
+  }
+
+  #banner-credito-hipotecario-vivienda .contenido-credito-hipotecario-vivienda {
+    grid-row: 2/2
+  }
+
+  #banner-credito-hipotecario-vivienda .imagen-credito-hipotecario-vivienda {
+    padding: 0 0 20px
+  }
+
+  #banner-credito-hipotecario-vivienda .imagen-credito-hipotecario-vivienda figure img {
+    max-width: 100%
+  }
+
+  #conoce-condiciones-credito-vivienda .contenedor-conoce-condiciones-credito-vivienda-plantilla-01,
+  #conoce-condiciones-credito-vivienda .contenedor-conoce-condiciones-credito-vivienda-plantilla-02,
+  #detalles-tasas-tarifas .contenedor-detalles-tasas-tarifas,
+  #planes-pago-vivienda .contenedor-planes-pago-vivienda,
+  #razon-beneficio-vivienda .contenedor-razon-beneficio-vivienda-plantilla-01,
+  #razon-beneficio-vivienda .contenedor-razon-beneficio-vivienda-plantilla-02 {
+    padding: 40px
+  }
+
+  #razon-beneficio-vivienda .imagen-razon-beneficio-vivienda-plantilla-01,
+  #razon-beneficio-vivienda .imagen-razon-beneficio-vivienda-plantilla-02 {
+    width: 100%;
+    min-height: 424px
+  }
+
+  #razon-beneficio-vivienda .imagen-frontal-razon-beneficio-vivienda,
+  #razon-beneficio-vivienda .imagen-trasera-razon-beneficio-vivienda {
+    grid-column: 1/2;
+    grid-row: 2/2;
+    margin-left: 0;
+    background-position: top
+  }
+
+  #razon-beneficio-vivienda .card-razon-beneficio-vivienda {
+    grid-row: 3/3;
+    padding-top: 24px
+  }
+
+  #conoce-condiciones-credito-vivienda .imagen-conoce-condiciones-credito-vivienda {
+    grid-column: 1/3
+  }
+
+  #conoce-condiciones-credito-vivienda .imagen-conoce-condiciones-credito-vivienda figure img {
+    width: 100%
+  }
+
+  #conoce-condiciones-credito-vivienda .bullet-conoce-condiciones-credito-vivienda-plantilla-01,
+  #conoce-condiciones-credito-vivienda .bullet-conoce-condiciones-credito-vivienda-plantilla-02 {
+    padding: 20px 0;
+    grid-column: 1/2
+  }
+
+  #detalles-tasas-tarifas .contenido-detalles-tasas-tarifas {
+    grid-template-columns: 1fr
+  }
+
+  #acordeon-documentos-vivienda .contenido-principal-acordeon-documentos-vivienda {
+    padding: 38px 80px
+  }
+
+  #acordeon-documentos-vivienda .contenedor-acordeon-documentos-vivienda {
+    padding: 40px 140px
+  }
+
+  .bc-container.bc-container_OpinionesAhorro {
+    padding: 0 40px
+  }
+}
+
+@media screen and (max-width:576px) {
+  #banner-credito-hipotecario-vivienda .contenedor-credito-hipotecario-vivienda {
+    grid-template-columns: 1fr;
+    padding: 14px
+  }
+
+  #banner-credito-hipotecario-vivienda .entradilla-credito-hipotecario-vivienda p {
+    font-size: 16px;
+    line-height: 24px;
+    text-decoration: none
+  }
+
+  #banner-credito-hipotecario-vivienda .texto-credito-hipotecario-vivienda h1 {
+    font-size: 26px;
+    line-height: 32px
+  }
+
+  #banner-credito-hipotecario-vivienda .texto-credito-hipotecario-vivienda p,
+  #detalles-tasas-tarifas .titulo-detalles-tasas-tarifas p,
+  #razon-beneficio-vivienda .boton-modal-razon-beneficio-vivienda .boton-razon-beneficio-vivienda,
+  #razon-beneficio-vivienda .card-trasera-razon-beneficio-vivienda a,
+  #razon-beneficio-vivienda .card-trasera-razon-beneficio-vivienda p,
+  #razon-beneficio-vivienda .enlace-card-trasera-razon-beneficio-vivienda a,
+  #razon-beneficio-vivienda .texto-imagen-trasera-razon-beneficio-vivienda p,
+  #razon-beneficio-vivienda .texto-imagen-trasera-razon-beneficio-vivienda ul li {
+    font-size: 14px;
+    line-height: 20px
+  }
+
+  #banner-credito-hipotecario-vivienda #boton-credito-hipotecario-vivienda-1,
+  #banner-credito-hipotecario-vivienda #boton-credito-hipotecario-vivienda-2 {
+    width: 100%
+  }
+
+  #banner-credito-hipotecario-vivienda .imagen-credito-hipotecario-vivienda figure img:first-child {
+    display: none
+  }
+
+  #banner-credito-hipotecario-vivienda .imagen-credito-hipotecario-vivienda figure img:nth-child(2),
+  #detalles-tasas-tarifas .titulo-detalles-tasas-tarifas figure svg,
+  #planes-pago-vivienda .acordeon-info-vivienda figure svg {
+    display: block
+  }
+
+  #razon-beneficio-vivienda .contenedor-razon-beneficio-vivienda-plantilla-01,
+  #razon-beneficio-vivienda .contenedor-razon-beneficio-vivienda-plantilla-02 {
+    padding: 38px 16px
+  }
+
+  #conoce-condiciones-credito-vivienda .contenido-conoce-condiciones-credito-vivienda h2,
+  #razon-beneficio-vivienda .contenido-razon-beneficio-vivienda h2 {
+    font-size: 24px;
+    line-height: 28px
+  }
+
+  #razon-beneficio-vivienda .imagen-razon-beneficio-vivienda-plantilla-01,
+  #razon-beneficio-vivienda .imagen-razon-beneficio-vivienda-plantilla-02 {
+    max-width: 100%;
+    min-height: 343px;
+    margin-left: 0;
+    background-position: center
+  }
+
+  #razon-beneficio-vivienda .card-frontal-razon-beneficio-vivienda figure svg,
+  #razon-beneficio-vivienda .cerrar-imagen-trasera-razon-beneficio-vivienda figure svg,
+  #razon-beneficio-vivienda .imagen-frontal-razon-beneficio-vivienda figure svg,
+  #razon-beneficio-vivienda .titulo-razon-beneficio-vivienda figure svg {
+    width: 32px;
+    height: 32px
+  }
+
+  #razon-beneficio-vivienda .titulo-razon-beneficio-vivienda h3 {
+    font-size: 20px;
+    line-height: 26px;
+    padding-right: 18px
+  }
+
+  #razon-beneficio-vivienda .card-razon-beneficio-vivienda {
+    grid-template-columns: 1fr;
+    gap: 14px;
+    padding-top: 14px
+  }
+
+  #razon-beneficio-vivienda .contenido-card-razon-beneficio-vivienda {
+    min-height: 144px
+  }
+
+  #razon-beneficio-vivienda .titulo-card-razon-beneficio-vivienda h4 {
+    font-size: 16px;
+    line-height: 24px;
+    max-width: 250px
+  }
+
+  #razon-beneficio-vivienda .enlace-icono-card-trasera-razon-beneficio-vivienda figure svg,
+  #razon-beneficio-vivienda .titulo-card-razon-beneficio-vivienda figure svg {
+    width: 38px;
+    height: 38px
+  }
+
+  #acordeon-documentos-vivienda .contenedor-acordeon-documentos-vivienda,
+  #acordeon-documentos-vivienda .contenido-principal-acordeon-documentos-vivienda,
+  #conoce-condiciones-credito-vivienda .contenedor-conoce-condiciones-credito-vivienda-plantilla-01,
+  #conoce-condiciones-credito-vivienda .contenedor-conoce-condiciones-credito-vivienda-plantilla-02 {
+    padding: 38px 14px
+  }
+
+  #conoce-condiciones-credito-vivienda .contenido-conoce-condiciones-credito-vivienda p {
+    font-size: 16px;
+    line-height: 24px
+  }
+
+  #conoce-condiciones-credito-vivienda .bullet-conoce-condiciones-credito-vivienda-plantilla-01,
+  #conoce-condiciones-credito-vivienda .bullet-conoce-condiciones-credito-vivienda-plantilla-02 {
+    grid-template-columns: 1fr
+  }
+
+  #conoce-condiciones-credito-vivienda .item-conoce-condiciones-credito-vivienda {
+    padding: 18px 12px
+  }
+
+  #conoce-condiciones-credito-vivienda .info-conoce-condiciones-credito-vivienda {
+    padding: 5px 0 0
+  }
+
+  #conoce-condiciones-credito-vivienda .info-conoce-condiciones-credito-vivienda p {
+    font-size: 12px;
+    line-height: 16px
+  }
+
+  #planes-pago-vivienda .contenedor-planes-pago-vivienda {
+    padding: 38px 14px 0;
+    margin-bottom: -21px
+  }
+
+  #detalles-tasas-tarifas .acordeon-info-vivienda,
+  #planes-pago-vivienda .acordeon-info-vivienda {
+    display: flex;
+    justify-content: space-between;
+    border-top: 1px solid #d9dadd;
+    border-bottom: 1px solid #d9dadd;
+    padding: 15px 10px;
+    margin-bottom: 20px
+  }
+
+  #detalles-tasas-tarifas .acordeon-info-vivienda h2,
+  #planes-pago-vivienda .acordeon-info-vivienda h2 {
+    font-size: 16px;
+    line-height: 24px;
+    text-align: left;
+    margin-bottom: 0
+  }
+
+  #detalles-tasas-tarifas .contenido-info-vivienda,
+  #planes-pago-vivienda .contenido-info-vivienda {
+    transition: .5s;
+    overflow: hidden;
+    padding: 0 10px;
+    max-height: 0
+  }
+
+  #detalles-tasas-tarifas .contenedor-detalles-tasas-tarifas {
+    padding: 0 14px 16px
+  }
+
+  #acordeon-documentos-vivienda .contenido-principal-acordeon-documentos-vivienda h2 {
+    font-size: 24px;
+    font-weight: 700;
+    line-height: 28px
+  }
+
+  #acordeon-documentos-vivienda .enlace-acordeon-documentos-vivienda a {
+    font-size: 12px;
+    font-weight: 400;
+    line-height: 16px
+  }
+}
+
+.banner-tarjetas-beneficios .contenedor-credito-hipotecario-vivienda {
+  align-items: center;
+}
+
+@media screen and (max-width: 576px) {
+  #banner-credito-hipotecario-vivienda .texto-credito-hipotecario-vivienda p{
+    margin-bottom: 30px;
+  }
+}
+
+.bc-container.bc-container_OpinionesAhorro {
+
+  padding: 0;
+}
+
+.bc-row.bc-row_OpinionesAhorro {
+  margin-right: 0 !important;
+}
+
+
+.bc-col .bc-col_OpinionesAhorro {
+  padding: 0;
+  margin: 0;
+}
+
+.swiper.mySwiper.mySwiper_OpinionesAhorro.swiper-initialized.swiper-horizontal.swiper-backface-hidden {
+  padding: 16px;
+}

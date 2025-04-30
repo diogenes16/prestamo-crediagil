@@ -1,0 +1,134 @@
+.descAcodeonAnimado {
+  height: 0;
+  overflow: hidden;
+  transition: height 0.3s ease;
+}
+
+.tituloAcordeon.activo {
+  background: rgba(44, 42, 41, 1);
+  color: rgb(255, 255, 255);
+  border-radius: 8px 8px 0 0;
+}
+
+.tituloAcordeon.activo img{
+  transform: rotate(180deg);
+  filter: invert(1); /* Invierte los colores de la imagen */
+}
+
+
+section.acodeonSeccion {
+  padding: 32px 0 32px 0;
+  background: rgba(249, 249, 250, 1);
+
+}
+
+h3.titiloSeccionAcodeones {
+  text-align: center;
+  font-weight: 600;
+  font-family: 'Open Sans';
+  margin-bottom: 32px;
+}
+
+
+.desSeccionAcordeones {
+  margin-bottom: 32px;
+  text-align: center;
+}
+
+.tituloAcordeon {
+  display: flex;
+  justify-content: space-between;
+  padding: 16px;
+  cursor: pointer;
+}
+.tituloAcordeon p {
+  margin: 0;
+  font-weight: 900;
+}
+article.acordeonAnimadoBC {
+  background: #fff;
+}
+
+.tituloAcordeon.activo + .descAcodeonAnimado {
+  padding: 16px;
+}
+.tituloAcordeon span {
+  font-weight: 900;
+}
+.descAcodeonAnimado p {
+  margin: 0;
+}
+li.liDudas {
+  font-family: 'OpenSans-Regular';
+  font-size: 16px;
+  list-style: auto;
+  margin-left: 15px;
+  margin-bottom: 5px;
+}
+
+@media(min-width:992px){
+
+  section.acodeonSeccion {
+    padding: 96px 0;
+  }
+  h3.titiloSeccionAcodeones {
+    font-size: 48px;
+  }
+  article.acordeonAnimadoBC {
+    background: hwb(0 9% 1% / 0);
+    border-bottom: 1.5px solid #ccc;
+  }
+
+  .containerAcodeones .acordeonAnimadoBC:first-child {
+    border-top: 1.5px solid #ccc;
+  }
+  .containerAcodeones {
+    max-width: 940px;
+    margin: 0 auto;
+  }
+}  
+
+
+/***************** Chat Mobile *********************************/
+
+a.btnModalMobileQr {
+  width: 100%;
+  background: #FDDA24;
+  border-radius: 100px;
+  display: inline-block;
+  text-align: center;
+  display: flex;
+  align-items: center;
+  justify-content: center;
+  color: black;
+  text-decoration: none;
+  font-family: 'CIBFontSans Bold';
+  padding: 12px;
+}
+
+.abrirModalqrMobile {
+  background: #fff;
+  position: fixed;
+  bottom: 0;
+  /* top: 0; */
+  width: 100%;
+  border-radius: 10px 10px 0 0;
+  padding: 8px;
+  z-index: 9999999;
+}
+
+.containerSeccionModalMobile {
+  display: flex;
+  flex-direction: row;
+  width: 100%;
+  gap: 10px;
+  justify-content: space-between;
+}
+
+.abrirChat {
+  background: #2C2A29;
+  padding: 9px 10px;
+  border-radius: 100px;
+  display: none;
+}
+
